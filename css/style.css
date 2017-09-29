@@ -1,0 +1,292 @@
+
+.bannerh{
+position: relative;
+width: 100%;
+height:635px;
+background: url('../img/banner.jpg') center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+ overflow: hidden;
+}
+
+
+header{
+	/*border: 2px red solid;*/
+	overflow: hidden;
+	width: 100%;
+	/*background-color: #e5e3e2;*/
+  background-color: rgba(0, 0, 0, .7);
+}
+.logo{
+	width: 20%;
+	margin-left: 5%;
+}
+.iconom .textm{
+  display: block;
+}
+.iconom{
+  font-size: 25px;
+}
+.textm{
+  color: red;
+}
+nav{
+	/*border: 2px red solid;*/
+	margin-right: 5%;
+	margin-top: 5%;
+}
+nav ul{
+	/*border: 2px green solid;*/
+	padding: 20px;
+}
+nav ul .selector{
+	/*border: 2px yellow solid;*/
+	padding: 20px;
+	text-decoration: none;
+    color: #4E877F;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+}
+.selector:hover{
+	color: #fff;
+}
+#select{
+	color: #9AB3AE;
+}
+.contentextbanner{
+  /*border: 2px red solid;*/
+  overflow: hidden;
+}
+.textob{
+  font-size: 40px;
+  color: #4E877F;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 7%;
+  /*width: 60%;*/
+  margin-right: 2%;
+}
+.botonb{
+  clear: both;
+  margin-right: 15%;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.btn-success.btn-outline {
+  font-family: 'Montserrat', sans-serif;
+  color: #429F73;
+}
+
+.btn-success.btn-outline:hover {
+    color: #fff;
+}
+
+.seccion1{
+  width: 100%;
+  overflow: hidden;
+  /*border: 2px red solid;*/
+  padding: 2% 0% 0% 0%;
+}
+.tit{
+  text-align: center;
+  color: #429F73;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.imagen{
+  width: 100%;
+  height: 270px;
+  /*border: 2px red solid;*/
+  position: relative;
+  background: url('../img/calidad.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  overflow: hidden;
+}
+.imagen2{
+  width: 100%;
+  height: 270px;
+  /*border: 2px red solid;*/
+  position: relative;
+  background: url('../img/perosnal.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  overflow: hidden;
+}
+.imagen3{
+  width: 100%;
+  height: 270px;
+  /*border: 2px red solid;*/
+  position: relative;
+  background: url('../img/bajos.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  overflow: hidden;
+}
+.banner2{
+  margin-top: 3%;
+  width: 100%;
+  height: 270px;
+  /*border: 2px red solid;*/
+  position: relative;
+  background: url('../img/banner2.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  overflow: hidden;
+}
+.fondo{
+  width: 100%;
+  height: 270px;
+  background-color: rgba(0, 0, 0, .7);
+  overflow: hidden;
+}
+.fondo p{
+  font-size: 30px;
+  color: #ffF;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 7%;
+  text-align: center;
+}
+.dos{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.imagen1{
+  width: 100%;
+  /*height: 270px;*/
+  text-align: center;
+  /*border: 2px red solid;*/
+}
+.imagen21{
+  width: 100%;
+  /*height: 270px;*/
+  text-align: center;
+}
+.imagen31{
+  width: 100%;
+  /*height: 270px;*/
+  text-align: center;
+}
+.seccion2{
+	width: 100%;
+	overflow: hidden;
+	/*border: 2px red solid;*/
+	padding: 9% 0% 9% 0%;
+	background-color: #fbfcfc;
+}
+.card-base > .card-icon {
+  text-align: center;
+  position: relative;
+    }
+
+.imagecard { 
+  z-index: 2;
+  display: block;
+  position: relative;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 1px 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin: 0 auto;
+  color: white;
+}
+.card-base > .card-icon > .card-data {
+  min-height: 250px !important;
+  margin-top: -24px;
+  background: ghostwhite;
+  border: 1px solid #e0e0e0;
+  padding: 15px 0 10px 0;
+  box-shadow: 1px 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  min-height: 215px;
+}
+#widgetCardIcon {
+  background: #429F73 !important;
+  font-size: 28px;
+  line-height: 78px;
+}
+.seccion3{
+	width: 100%;
+	overflow: hidden;
+	/*border: 2px red solid;*/
+	padding: 0% 0% 3% 0%;
+}
+
+.contact .fa:before {
+  display: inline-block;
+  opacity: 0.7;
+}
+
+.contact li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 1em;
+  text-align: center;
+}
+
+.contact p {
+  text-align: center;
+}
+
+.contact {
+  display: inline-block;
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+.cont {
+  text-align: center;
+}
+.contact-form {
+    margin-top:0px;
+}
+.mapa{
+  width: 100%;
+}
+.mapa iframe{
+  width: 100%;
+}
+
+/*--------------FOOTER----------*/
+footer{
+  width: 100%;
+  background:#4A4A4B;
+  font-family: 'Montserrat', sans-serif;
+  height: 100px;
+  /*font-size: 20px;*/
+  overflow: hidden;
+  clear: both;
+
+}
+footer p{
+  /*border: 2px red solid;*/
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2.5%;
+    color: #fff;
+}
+
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#429F73;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+	z-index: 100;
+}

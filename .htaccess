@@ -1,0 +1,2 @@
+ ErrorDocument 403 http://serviciosnumb.com/index.php
+ Options -Indexes
