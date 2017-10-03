@@ -18,6 +18,11 @@ header{
 	/*background-color: #e5e3e2;*/
   background-color: rgba(0, 0, 0, .7);
 }
+
+.op-menu{
+  display: none;
+}
+
 .logo{
 	width: 20%;
 	margin-left: 5%;

@@ -47,6 +47,10 @@
         <a class="selector" data-scroll href="#CONTACTO" aria-pressed="true">CONTACTO</a>
       </ul>
     </nav>
+
+     <div class="op-menu">
+      <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+    </div>
   </header>
 
   <div class="contentextbanner">
@@ -69,21 +73,21 @@
             <figure class="imagen">
               
             </figure>
-            <h2 class="text-center" style="color: #429F73;">Limpieza de Calidad</h2>
+            <h2 class="text-center text-img" style="color: #429F73;">Limpieza de Calidad</h2>
             
           </div>
           <div class="col-md-4">
             <figure class="imagen2">
               
             </figure>
-            <h2 class="text-center" style="color: #429F73;">Personal Profesional</h2>
+            <h2 class="text-center text-img" style="color: #429F73;">Personal Profesional</h2>
             
           </div>
           <div class="col-md-4">
             <figure class="imagen3">
               
             </figure>
-            <h2 class="text-center" style="color: #429F73;">Precios Económicos</h2>
+            <h2 class="text-center text-img" style="color: #429F73;">Precios Económicos</h2>
             
           </div>
         </div>
@@ -100,22 +104,22 @@
             <figure class="imagen1">
               <img src="img/objetivo.png" alt="">
             </figure>
-            <h2 class="text-center" style="color: #429F73;">NOSOTROS</h2>
-            <p class="text-center">Contamos con personal altamente capacitado en técnicas y manejo de productos de limpieza con lo que garantizamos un cuidado óptimo de los materiales utilizados en la arquitectura y decoración de su empresa. </p>
+            <h2 class="text-center text-img" style="color: #429F73;">NOSOTROS</h2>
+            <p class="text-center txt-nmv">Contamos con personal altamente capacitado en técnicas y manejo de productos de limpieza con lo que garantizamos un cuidado óptimo de los materiales utilizados en la arquitectura y decoración de su empresa. </p>
           </div>
           <div class="col-md-4">
             <figure class="imagen21">
               <img src="img/mision.png" alt="">
             </figure>
-            <h2 class="text-center" style="color: #429F73;">MISION</h2>
-            <p class="text-center">Brindar un servicio de limpieza de la alta calidad a nuestros clientes, proporcionánlo de manera eficaz y honesta, para logar una completa satisfación y lealtad a la empresa.</p>
+            <h2 class="text-center text-img" style="color: #429F73;">MISION</h2>
+            <p class="text-center txt-nmv">Brindar un servicio de limpieza de la alta calidad a nuestros clientes, proporcionánlo de manera eficaz y honesta, para logar una completa satisfación y lealtad a la empresa.</p>
           </div>
           <div class="col-md-4">
             <figure class="imagen31">
               <img src="img/vision.png" alt="">
             </figure>
-            <h2 class="text-center" style="color: #429F73;">VISION</h2>
-            <p class="text-center">Llegar a ser la empresa de limpieza mas reconocida, brindandoles un servicio de calidad y profesional a traves de tener los colaboradores mas capacitados y motivados en el ramo.</p>
+            <h2 class="text-center text-img" style="color: #429F73;">VISION</h2>
+            <p class="text-center txt-nmv">Llegar a ser la empresa de limpieza mas reconocida, brindandoles un servicio de calidad y profesional a traves de tener los colaboradores mas capacitados y motivados en el ramo.</p>
           </div>
         </div>
       </div>
@@ -123,7 +127,7 @@
 
 <section class="seccion2" id="SERVICIOS">
     <h1 class="tit">SERVICIOS</h1>
-    <p class="text-center">Trabajar en un ambiente limpio, fresco e higiénico incrementa la productividad y genera bienestar en nuestros colaboradores.</p>
+    <p class="text-center txt-ser">Trabajar en un ambiente limpio, fresco e higiénico incrementa la productividad y genera bienestar en nuestros colaboradores.</p>
     <br><br>
     <div class="container">
         <div class = "row">
@@ -241,13 +245,13 @@
               <legend>No dudes en ponerte en contacto, sus comentarios son importantes para nosotros</legend> <br><br>
               <form id="contact" method="post" class="form" role="form">
               <div class="row">
-              <div class="col-xs-6 col-md-4 form-group">
+              <div class="col-xs-12 col-md-4 form-group">
               <input class="form-control" id="name" name="name" placeholder="Nombre Completo" type="text" required autofocus />
               </div>
-              <div class="col-xs-6 col-md-4 form-group">
+              <div class="col-xs-12 col-md-4 form-group">
               <input class="form-control" id="email" name="email" placeholder="Escribe tu correo" type="email" required />
               </div>
-              <div class="col-xs-6 col-md-4 form-group">
+              <div class="col-xs-12 col-md-4 form-group">
               <input class="form-control" id="email" name="email" placeholder="Escribe tu teléfono" type="text" required />
               </div>
               </div>

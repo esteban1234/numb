@@ -1,0 +1,148 @@
+@media screen and (max-width: 480px){
+
+	header{
+		text-align: center;
+	}
+
+	.logo{
+		margin: auto  !important;
+		width: 40%;
+		float: none !important;
+	}
+
+	nav{
+		display: none;
+		width: 100%;
+		margin: auto;
+	}
+
+	nav ul .selector{
+		display: block;
+		padding: 10px 0px;
+		color: #fff !important;
+		border-bottom: .5px solid rgba(254,253,252,0.7);
+	}
+
+
+
+	.op-menu{
+		position: absolute;
+		top: 53px;
+		right: 100px;
+		color: #fff;
+		cursor: pointer;
+		display: block;
+	}
+
+	.contentextbanner{
+		height: 100%;
+	}
+
+	.textob{
+		width: 100%;
+		margin: 15px auto;
+		font-size: 20px;
+		text-align: center;
+		color: #000;
+		/*height: 100%;*/
+		background: rgba(255,255,255,0.9);
+	}
+
+	.bannerh, .contentextbanner{
+		height: 100%;
+	}
+
+	.botonb{
+		margin: auto;
+		float: none !important; 
+	}
+
+	.botonb a{
+		background: #429F73;
+		margin-bottom: 20px;
+		color: #fff !important;
+	}
+
+	.tit{
+		font-size: 23px;
+		font-weight: bold !important;
+		color: rgba(0,0,0,0.8);
+	}
+
+	.imagen, .imagen2, .imagen3{
+		border-radius: 50%;
+		height: 200px;
+		width: 200px;
+		margin: auto;
+	}
+
+	.text-img{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.banner2, .fondo{
+		height: 100%;
+	}
+
+	.fondo p{
+		text-align: justify;
+		font-size: 18px;
+		padding: 3px 10px;
+	}
+
+	.fondo p > br{
+		display: none;
+	}
+
+	.txt-nmv, .txt-ser, .card-block{
+		text-align: justify;
+	}
+
+	.imagen1 img, .imagen21 img, .imagen31 img{
+		height: 160px;
+		width: 160px;
+	}
+
+	.txt-ser, .card-block{
+		padding: 4px 15px;
+	}
+
+	.box-title{
+		font-size: 18px;
+	}
+
+	.contact li{
+		width: 100%;
+		margin: auto;
+	}
+
+	legend{
+		text-align: justify;
+		font-size: 16px;
+	}
+
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		width: 95%;
+		font-size: 16px;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }
