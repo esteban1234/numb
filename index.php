@@ -7,7 +7,7 @@
     <title>SERVICIOS DE LIMPIEZA NUMB</title>
    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <META NAME="Title" content="SERVICIOS DE LIMPIEZA NUMB">
-    <META NAME="Author" CONTENT="[http://serviciosnumb.com/]"/>
+    <META NAME="Author" CONTENT="[http://serviciosnumb.com]"/>
     <META name="Description" content="Somos una compañía ubicada en la ciudad de mérida, mérida, dedicados a ofrecer servicios de limpieza."/>
     <META NAME="Keywords" CONTENT="Limpieza en mérida, Limpieza, organización de Limpieza, Limpieza en mérida yucatan, Limpieza de empresas y hogares, hogares, empresas y hogares."/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -246,7 +246,7 @@
               <form id="contact" class="form" role="form" onSubmit="return false">
               <div class="row">
               <div class="col-xs-12 col-md-4 form-group">
-              <input class="form-control" id="txtNOMBRE" name="name" placeholder="Nombre Completo" type="text" required autofocus />
+              <input class="form-control" id="txtNOMBRE" name="name" placeholder="Nombre Completo" type="text" required />
               </div>
               <div class="col-xs-12 col-md-4 form-group">
               <input class="form-control" id="txtCORREO" name="email" placeholder="Escribe tu correo" type="email" required />
@@ -274,13 +274,14 @@
 <p>Derechos de autor 2017 © | SERVICIOS DE LIMPIEZA NUMB S.C.P </p>
 </footer>
 
-    <script src="js/sendCORREO.js"></script>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/arriba.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <!-- <script src="js/bootstrap.js"></script> -->
     <script src="js/menu.js"></script>
+    <script src="js/sendCORREO.js"></script>
   </body>
 </html>
