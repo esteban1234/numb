@@ -69,21 +69,21 @@
 <h1 class="tit">NOSOTROS</h1>
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen">
               
             </figure>
             <h2 class="text-center text-img" style="color: #429F73;">Limpieza de Calidad</h2>
             
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen2">
               
             </figure>
             <h2 class="text-center text-img" style="color: #429F73;">Personal Profesional</h2>
             
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen3">
               
             </figure>
@@ -100,21 +100,21 @@
 
       <div class="container dos">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen1">
               <img src="img/objetivo.png" alt="">
             </figure>
             <h2 class="text-center text-img" style="color: #429F73;">NOSOTROS</h2>
             <p class="text-center txt-nmv">Contamos con personal altamente capacitado en técnicas y manejo de productos de limpieza con lo que garantizamos un cuidado óptimo de los materiales utilizados en la arquitectura y decoración de su empresa. </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen21">
               <img src="img/mision.png" alt="">
             </figure>
             <h2 class="text-center text-img" style="color: #429F73;">MISION</h2>
             <p class="text-center txt-nmv">Brindar un servicio de limpieza de la alta calidad a nuestros clientes, proporcionánlo de manera eficaz y honesta, para logar una completa satisfación y lealtad a la empresa.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen31">
               <img src="img/vision.png" alt="">
             </figure>
@@ -131,7 +131,7 @@
     <br><br>
     <div class="container">
         <div class = "row">
-            <div class = "col-md-4">
+            <div class = "col-sm-6 col-md-4">
                 <div class="card-base">
                   <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fa fa-cog fa-spin fa-fw"></span></a>
                       <div class="card-data widgetCardData"><br>
@@ -143,7 +143,7 @@
                 </div>
             </div>
 
-            <div class = "col-md-4">
+            <div class = "col-sm-6 col-md-4">
                 <div class="card-base">
                   <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fa fa-cog fa-spin fa-fw"></span></a>
                       <div class="card-data widgetCardData"><br>
@@ -155,7 +155,7 @@
                 </div>
             </div>
 
-            <div class = "col-md-4">
+            <div class = "col-sm-12 col-md-4">
                 <div class="card-base">
                   <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fa fa-cog fa-spin fa-fw"></span></a>
                       <div class="card-data widgetCardData"><br>
@@ -169,7 +169,7 @@
         </div> <br><br>
 
         <div class = "row">
-            <div class = "col-md-4">
+            <div class = "col-sm-6 col-md-4">
                 <div class="card-base">
                   <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fa fa-cog fa-spin fa-fw"></span></a>
                       <div class="card-data widgetCardData"><br>
@@ -181,7 +181,7 @@
                 </div>
             </div>
 
-            <div class = "col-md-4">
+            <div class = "col-sm-6 col-md-4">
                 <div class="card-base">
                   <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fa fa-cog fa-spin fa-fw"></span></a>
                       <div class="card-data widgetCardData"><br>
@@ -193,7 +193,7 @@
                 </div>
             </div>
 
-            <div class = "col-md-4">
+            <div class = "col-sm-12 col-md-4">
                 <div class="card-base">
                   <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fa fa-cog fa-spin fa-fw"></span></a>
                       <div class="card-data widgetCardData"><br>
@@ -243,23 +243,24 @@
                   
               <div class="col-sm-6 contact-form">
               <legend>No dudes en ponerte en contacto, sus comentarios son importantes para nosotros</legend> <br><br>
-              <form id="contact" method="post" class="form" role="form">
+              <form id="contact" class="form" role="form" onSubmit="return false">
               <div class="row">
               <div class="col-xs-12 col-md-4 form-group">
-              <input class="form-control" id="name" name="name" placeholder="Nombre Completo" type="text" required autofocus />
+              <input class="form-control" id="txtNOMBRE" name="name" placeholder="Nombre Completo" type="text" required autofocus />
               </div>
               <div class="col-xs-12 col-md-4 form-group">
-              <input class="form-control" id="email" name="email" placeholder="Escribe tu correo" type="email" required />
+              <input class="form-control" id="txtCORREO" name="email" placeholder="Escribe tu correo" type="email" required />
               </div>
               <div class="col-xs-12 col-md-4 form-group">
-              <input class="form-control" id="email" name="email" placeholder="Escribe tu teléfono" type="text" required />
+              <input class="form-control" id="txtTELEFONO" name="email" placeholder="Escribe tu teléfono" type="text" required />
               </div>
               </div>
-              <textarea class="form-control" id="message" name="message" placeholder="Escribe tu comentario" rows="5"></textarea>
+              <textarea class="form-control" id="txtCOMENTARIO" name="message" placeholder="Escribe tu comentario" rows="5"></textarea>
               <br />
               <div class="row">
               <div class="col-xs-12 col-md-12 form-group">
-              <button class="btn btn-success pull-right" type="submit">Enviar</button>
+              <div id="_AJAX_PRE_"></div>
+              <button class="btn btn-success pull-right" type="submit" onclick="sendCORREO()">Enviar</button>
               </form>
               </div>
               </div>
