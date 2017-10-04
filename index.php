@@ -215,19 +215,19 @@
           <ul class="contact">
             <li style="text-align: left;">
               <p><i class="fa fa-map-marker fa-3x"></i></p>
-              <p><strong>Dirección</strong></br>C. 26-D No162-A, por C. 23 y C. 25 <br> Col. Chuburna de Hidalgo, Mérida, Yucatán. <br> C.P. 97205</p>
+              <p><strong>Dirección</strong><br>C. 26-D No162-A, por C. 23 y C. 25 <br> Col. Chuburna de Hidalgo, Mérida, Yucatán. <br> C.P. 97205</p>
             </li>
             <li style="text-align: left; vertical-align: top;">
               <p><i class="fa fa-phone fa-3x"></i></p>
-              <p><strong>Teléfono</strong></br>PENDIENTE</p>
+              <p><strong>Teléfono</strong><br>PENDIENTE</p>
             </li>
             <li style="text-align: left; vertical-align: top;">
               <p><i class="fa fa-envelope fa-3x"></i></p>
-              <p><strong>E-mail</strong></br>info@serviciosnumb.com</p>
+              <p><strong>E-mail</strong><br>info@serviciosnumb.com</p>
             </li>
             <li style="text-align: left; vertical-align: top;">
               <p><i class="fa fa-clock-o fa-3x"></i></p>
-              <p><strong>Horario</strong></br>Lunes a Viernes de 9 am a 6 pm.</p>
+              <p><strong>Horario</strong><br>Lunes a Viernes de 9 am a 6 pm.</p>
             </li>
           </ul>
       </div>

@@ -247,10 +247,12 @@ nav ul .selector{
   display: inline-block;
   margin: 0 auto;
   padding-left: 0;
+  /*border: 2px red solid;*/
 }
 
 .cont {
   text-align: center;
+  /*border: 2px red solid;*/
 }
 .contact-form {
     margin-top:0px;
